@@ -1,0 +1,11 @@
+.add-button{
+    background-color: palegreen;
+    border-color: transparent;
+    &:hover{
+        background-color: mediumseagreen;
+    }
+    &:active{
+        background-color: seagreen;
+        border-color: transparent;
+    }
+}

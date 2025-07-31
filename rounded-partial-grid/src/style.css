@@ -1,0 +1,16 @@
+@import "normalize.css";
+
+:root{
+    --column-lenght: 4;
+    --darkreader-neutral-background: #17191a;
+}
+body {
+    background-color: var(--darkreader-neutral-background);
+}
+.button{
+    width: 5rem;
+    height: 3rem;
+    font-size: 2rem;
+
+    border-radius: 1rem;
+}

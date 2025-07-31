@@ -1,0 +1,11 @@
+.delete-button {
+    background-color: coral;
+    border-color: transparent;
+    &:hover{
+        background-color: tomato;
+    }
+    &:active{
+        background-color: indianred;
+        border-color: transparent;
+    }
+}
